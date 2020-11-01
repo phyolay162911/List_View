@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/txtid"
+        android:visibility="invisible"
+        android:text="-9"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:textStyle="bold"
+            android:text="Enter Name:"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/txtLangName"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:textStyle="bold"
+        android:text="Enter Description:"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/txtDescription"
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:textStyle="bold"
+            android:text="Enter Date:"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/txtReleaseDate"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="match_parent"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnsave"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:text="SAVE"
+            android:layout_height="match_parent">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btncancel"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:text="CANCEL"
+            android:layout_height="match_parent">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btndelete"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:text="DELETE"
+            android:layout_height="match_parent">
+
+        </Button>
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+
